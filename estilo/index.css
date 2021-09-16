@@ -1,0 +1,10 @@
+#container{
+    position: absolute;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 1px 2px 3px black;
+}
+p{
+    text-align: center;
+}

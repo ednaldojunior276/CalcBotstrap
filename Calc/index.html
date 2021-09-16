@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../estilo/index.css">
+    <title>Calculado com bootstrap</title>
+  </head>
+  <body>
+    
+    <div id = "container">
+
+        <form name = "calculadora">
+        <p>
+            <div class="row">
+                <div class = "col">
+                    <input type = "text" class = "form-control" name = "numeros" placeholder="Numeros" id = "a">
+                </div>
+            </div>
+        </p>
+        
+   
+            <p>
+                <input type = "button" value = "1" class = "btn btn-outline-dark" onclick="botao(value)">      
+                <input type = "button" value = "2" class = "btn btn-outline-dark" onclick="botao(value)">
+                <input type = "button" value = "3" class = "btn btn-outline-dark" onclick="botao(value)"> 
+                <input type = "button" value = "/" class = "btn btn-outline-dark" onclick="botao(value)"> 
+            </p>
+            <p>
+                <input  type = "button" value = "4" class = "btn btn-outline-dark" onclick="botao(value)"> 
+                <input  type = "button" value = "5" class = "btn btn-outline-dark" onclick="botao(value)"> 
+                <input  type = "button" value = "6" class = "btn btn-outline-dark" onclick="botao(value)"> 
+                <input  type = "button" value = "*" class = "btn btn-outline-dark" onclick="botao(value)"> 
+            </p>
+            
+            <p>
+                <input  type = "button" value = "7" class = "btn btn-outline-dark"  onclick="botao(value)"> 
+                <input  type = "button" value = "8" class = "btn btn-outline-dark"  onclick="botao(value)"> 
+                <input  type = "button" value = "9" class = "btn btn-outline-dark"  onclick="botao(value)"> 
+                <input  type = "button" value = "-" class = "btn btn-outline-dark"  onclick="botao(value)"> 
+             </p>
+            
+             <p>
+                <input type = "button" value = "0" class = "btn btn-outline-dark" onclick="botao(value)">
+                <input type = "button" value = "c" class = "btn btn-outline-dark" onclick="apagar()"> 
+                <input type = "button" value = "=" class = "btn btn-outline-dark" onclick="calc()"> 
+                <input type = "button" value = "+" class = "btn btn-outline-dark" onclick="botao(value)">  
+              </p>
+     
+        </form>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="../codigo/index.js"> </script>
+  </body>
+</html>
